@@ -1,0 +1,485 @@
+{
+    /* editor */
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.cursorBlinking": "smooth",
+    "editor.renderWhitespace": "none",
+    "editor.stickyScroll.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.foldingMaximumRegions": 7000,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'JetBrains Mono', 'LINE Seed Sans KR', 'Roboto Mono', 'hack'",
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 120,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.mouseWheelZoom": true,
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.tokenColorCustomizations": {
+        "comments": "#FFC1CC",
+        "textMateRules": [
+            {
+                "scope": ["comment"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.codeActionsOnSave": {
+        "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "explorer.sortOrder": true,
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+
+    /* workbench */
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.wrapTabs": true,
+    "workbench.startupEditor": "none",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.labelFormat": "short",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "webstorm-icons",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1E1E1E",
+        "activityBarBadge.foreground": "#FFFFFF",
+        "button.background": "#0E639C",
+        "editor.background": "#1E1E1E",
+        "editor.lineHighlightBackground": "#2A2D2E",
+        "editorGroupHeader.tabsBackground": "#1E1E1E",
+        "editorCursor.foreground": "#FFFFFF",
+        "editorBracketMatch.border": "#FFFFFF",
+        "editorWhitespace.foreground": "#404040",
+        "list.hoverBackground": "#2C2C2C",
+        "list.focusBackground": "#2C2C2C",
+        "panel.background": "#1E1E1E",
+        "panel.border": "#808080",
+        "sideBar.background": "#1E1E1E",
+        "sideBar.foreground": "#eee",
+        "sideBarSectionHeader.background": "#2C2C2C",
+        "statusBar.background": "#2C2C2C",
+        "statusBar.noFolderBackground": "#2C2C2C",
+        "tab.activeBackground": "#1E1E1E",
+        "tab.inactiveBackground": "#2C2C2C",
+        "terminal.background": "#1E1E1E",
+        "titleBar.activeBackground": "#1E1E1E",
+        "titleBar.activeForeground": "#D4D4D4",
+        "titleBar.inactiveBackground": "#1E1E1E",
+        "titleBar.inactiveForeground": "#D4D4D4",
+        "diffEditor.insertedTextBackground": "#00800010",
+        "diffEditor.removedTextBackground": "#FF000010",
+        "terminal.ansiBlack": "#eaeaeb",
+        "terminal.ansiBlue": "#81A2BE",
+        "terminal.ansiCyan": "#8ABEB7",
+        "terminal.ansiGreen": "#7de8b2",
+        "terminal.ansiMagenta": "#B294BB",
+        "terminal.ansiRed": "#DB2D20",
+        "terminal.ansiWhite": "#C5C8C6",
+        "terminal.ansiYellow": "#F0C674",
+        "terminal.ansiBrightBlack": "#eaeaeb",
+        "terminal.ansiBrightBlue": "#81A2BE",
+        "terminal.ansiBrightCyan": "#8ABEB7",
+        "terminal.ansiBrightGreen": "#7de8b2",
+        "terminal.ansiBrightMagenta": "#B294BB",
+        "terminal.ansiBrightRed": "#DB2D20",
+        "terminal.ansiBrightWhite": "#C5C8C6",
+        "terminal.ansiBrightYellow": "#F0C674",
+        "gitDecoration.deletedResourceForeground": "#b30000",
+        "gitDecoration.addedResourceForeground": "#008fb3",
+        "gitDecoration.modifiedResourceForeground": "#ffa600",
+        "gitDecoration.untrackedResourceForeground": "#36d436"
+    },
+
+    /* files */
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "files.trimTrailingWhitespace": true,
+    "files.eol": "\n",
+
+    /* terminal */
+    "terminal.explorerKind": "external",
+    "terminal.integrated.fontFamily": "\"JetBrainsMono NF\", \"JetBrainsMono Nerd Font\"",
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.external.windowsExec": "C:\\Users\\forbiz\\AppData\\Local\\Microsoft\\WindowsApps\\wt.exe",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+
+    /* explorer */
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+
+    /* emmet */
+    "emmet.preferences": {},
+    "emmet.syntaxProfiles": {
+        "javascript": "js"
+        // "javascript": "jsx"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascript"
+        // "javascript": "javascriptreact"
+    },
+
+    /* ETC */
+    "security.workspace.trust.untrustedFiles": "open",
+    "html.format.enable": false,
+    "html.format.wrapAttributes": "force-aligned",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+
+    /* EXTENSION : prettier */
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.format.enable": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.semi": true,
+    "prettier.arrowParens": "always",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.bracketSpacing": true,
+    "prettier.proseWrap": "always",
+    "prettier.endOfLine": "auto",
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.bracketSameLine": true,
+
+    /* EXTENSION : CSS Sorting */
+    "postcssSorting.config": {
+        "properties-order": [
+            // 가상 (pseudo)
+            "content",
+            // 레이아웃 (Layout)
+            "position",
+            "top",
+            "right",
+            "bottom",
+            "left",
+            "z-index",
+            "display",
+            "flex",
+            "flex-basis",
+            "flex-direction",
+            "flex-flow",
+            "flex-grow",
+            "flex-shrink",
+            "flex-wrap",
+            "justify-content",
+            "align-items",
+            "align-self",
+            "order",
+            "grid-template-columns",
+            "grid-template-rows",
+            "grid-template-areas",
+            "grid-template",
+            "grid-auto-columns",
+            "grid-auto-rows",
+            "grid-auto-flow",
+            "grid",
+            "grid-row-start",
+            "grid-column-start",
+            "grid-row-end",
+            "grid-column-end",
+            "grid-row",
+            "grid-column",
+            "grid-area",
+            "grid-row-gap",
+            "grid-column-gap",
+            "grid-gap",
+            "justify-content",
+            "align-content",
+            "align-items",
+            "align-self",
+            "gap",
+            "float",
+            "clear",
+            // Box-model
+            "box-sizing",
+            "width",
+            "min-width",
+            "max-width",
+            "height",
+            "min-height",
+            "max-height",
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left",
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
+            "overflow",
+            "overflow-x",
+            "overflow-y",
+            "scroll-behavior",
+            "clip",
+            "zoom",
+            // 상자 모델 (Box-model)
+            "box-sizing",
+            "width",
+            "min-width",
+            "max-width",
+            "height",
+            "min-height",
+            "max-height",
+            "margin",
+            "margin-top",
+            "margin-right",
+            "margin-bottom",
+            "margin-left",
+            "padding",
+            "padding-top",
+            "padding-right",
+            "padding-bottom",
+            "padding-left",
+            "border",
+            "border-width",
+            "border-style",
+            "border-color",
+            "border-top",
+            "border-top-width",
+            "border-top-style",
+            "border-top-color",
+            "border-right",
+            "border-right-width",
+            "border-right-style",
+            "border-right-color",
+            "border-bottom",
+            "border-bottom-width",
+            "border-bottom-style",
+            "border-bottom-color",
+            "border-left",
+            "border-left-width",
+            "border-left-style",
+            "border-left-color",
+            "border-radius",
+            "border-top-left-radius",
+            "border-top-right-radius",
+            "border-bottom-right-radius",
+            "border-bottom-left-radius",
+            // 타이포그래피 (Typography)
+            "font",
+            "font-style",
+            "font-variant",
+            "font-weight",
+            "font-size",
+            "font-family",
+            "line-height",
+            "letter-spacing",
+            "word-spacing",
+            "text-align",
+            "text-decoration",
+            "text-indent",
+            "text-justify",
+            "text-overflow",
+            "text-transform",
+            "vertical-align",
+            "white-space",
+            "word-break",
+            "word-wrap",
+            "hyphens",
+            // 시각 (Visual)
+            "color",
+            "opacity",
+            "visibility",
+            "aspect-ratio",
+            "background",
+            "background-color",
+            "background-image",
+            "background-repeat",
+            "background-position",
+            "background-clip",
+            "background-origin",
+            "background-size",
+            "backface-visibility",
+            "mix-blend-mode",
+            "box-shadow",
+            "text-shadow",
+            // 테이블 (Table)
+            "table-layout",
+            "border-collapse",
+            "border-spacing",
+            "empty-cells",
+            "caption-side",
+            // 폼 (Form)
+            "appearance",
+            "counter-reset",
+            "counter-increment",
+            "content",
+            "cursor",
+            "outline",
+            "outline-color",
+            "outline-style",
+            "outline-width",
+            "resize",
+            "user-select",
+            // 애니메이션 (Animation)
+            "animation",
+            "animation-name",
+            "animation-duration",
+            "animation-timing-function",
+            "animation-delay",
+            "animation-iteration-count",
+            "animation-direction",
+            "animation-fill-mode",
+            "animation-play-state",
+            // 변환 (Transform)
+            "transform",
+            "transform-origin",
+            "perspective",
+            "perspective-origin",
+            "backface-visibility",
+            // 전환 (Transition)
+            "transition",
+            "transition-property",
+            "transition-duration",
+            "transition-timing-function",
+            "transition-delay",
+            // 기타 (ETC)
+            "user-select",
+            "pointer-events",
+            "touch-action",
+            "filter"
+        ]
+    },
+
+    /* EXTENSION : inline-parameters */
+    "inline-parameters.fontWeight": "300",
+    "inline-parameters.padding": "0.2em",
+
+    /* EXTENSION : path-intellisense */
+
+    "typescript.suggest.paths": false,
+    "javascript.suggest.paths": false,
+
+    /* EXTENSION : compile-superhero */
+    "compile-hero.javascript-output-directory": "", // 현재 경로에 저장
+    "compile-hero.pug-output-directory": "",
+    "compile-hero.typescriptx-output-directory": "",
+    "compile-hero.typescript-output-directory": "",
+    "compile-hero.sass-output-directory": "",
+    "compile-hero.jade-output-directory": "",
+    "compile-hero.html-output-directory": "",
+    "compile-hero.less-output-directory": "",
+    // 컴파일 언어 설정 (js와 html 컴파일은 끔)
+    "compile-hero.javascript-output-toggle": false,
+    "compile-hero.html-output-toggle": false,
+    // min 파일 생성 설정
+    "compile-hero.x-generate-minified-css": false,
+    "compile-hero.x-generate-minified-js": false,
+    "compile-hero.x-show-compile-error-messages": false,
+    "compile-hero.x-generate-sourcemap-js": false,
+    "compile-hero.x-compile-files-on-save": false,
+
+    "yaml.schemas": {
+        "file:///Users/hahmjuntae/.vscode/extensions/atlassian.atlascode-3.0.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+
+    /* EXTENSION : Todo highlight Color */
+    "todohighlight.keywords": [
+        {
+            "text": "NOTI:",
+            "color": "#000",
+            "fontWeight": "bold",
+            "backgroundColor": "#79d49e",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "WARN:",
+            "color": "#000",
+            "fontWeight": "bold",
+            "backgroundColor": "#f7e389",
+            "isWholeLine": false
+        },
+        {
+            "text": "MEMO:",
+            "color": "#000",
+            "fontWeight": "bold",
+            "backgroundColor": "#f38134",
+            "isWholeLine": false
+        },
+        {
+            "text": "TODO:",
+            "color": "#ff7b54",
+            "border": "1px solid rgba(255, 255, 255, 0.8)",
+            "fontWeight": "bold",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.2)"
+        },
+        {
+            "text": "FIXME:",
+            "color": "#f33434",
+            "fontWeight": "bold",
+            "border": "1px solid #f33434",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.2)"
+        }
+    ],
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "todohighlight.exclude": [
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/_output/**",
+        "**/*.min.*",
+        "**/*.map",
+        "**/.next/**"
+    ],
+
+    /* EXTESNSION : TODO Tree */
+    "todo-tree.highlights.enabled": false,
+
+    /* EXTENSION : AiCodeHelper */
+    "aicodehelper.language": "korean",
+    "aicodehelper.gptkey": "****",
+
+    /* EXTENSION : Auto Close Tag */
+    "auto-close-tag.activationOnLanguage": ["html", "xml", "javascript", "javascriptreact", "typescriptreact"]
+}
